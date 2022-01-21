@@ -12,3 +12,6 @@ How to use:
 
 # Whats This?
 - A Coin Counter.
+
+# Version History
+- 1.0: Created script.
