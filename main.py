@@ -27,12 +27,12 @@ def addcoins():
     main()
 
 def minuscoins():
-    addcoins = get_balance()
+    minuscoins = get_balance()
     coinamt = int(input("Enter a amount to minus coins: "))
-    addcoins['coins'] -= coinamt
+    minuscoins['coins'] -= coinamt
 
     with open('coins.json', 'w') as f:
-        json.dump(addcoins, f)
+        json.dump(minuscoins, f)
     print("Minus sucessfull")
     main()
     
