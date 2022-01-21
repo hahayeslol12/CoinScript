@@ -9,3 +9,6 @@ How to use:
 - Add Python to path why completing installation
 - Open Command Prompt
 - type in "python directory/to/file main.py"
+
+# Whats This?
+- A Coin Counter.
